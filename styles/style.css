@@ -1,0 +1,56 @@
+@import url('banner.css');
+@import url('buton.css');
+@import url('cards.css');
+@import url('footer.css');
+
+.link:hover{
+	cursor: url(catcursor.png);
+}
+
+body {
+	/*margin: 16px auto;
+	object-position: center;*/
+	margin: 0;
+	font: lato;
+}
+
+a{text-decoration: none;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.one-line{
+	grid-column: 1/span 2;
+}
+
+.icons i{
+	font-size: 34px;
+	color: darkgoldenrod;
+	justify-self: center;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+@media (min-width: 576px){
+	.icons{grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width: 768px){
+	.icons{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+@media (min-width: 992px){
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+@media (min-width: 1200px){
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+}

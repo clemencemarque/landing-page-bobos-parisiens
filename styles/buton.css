@@ -1,0 +1,39 @@
+
+.btn-blue {
+  padding: 16px;
+  color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+  font-family: roboto;
+  border-radius: 6px;
+  display: block;
+  width: auto;
+  transition: 1s;
+  text-align: center;
+  margin: 16px auto;
+}
+
+.btn-blue:hover {
+  background-color: darkgoldenrod;
+  color: white;
+  transition: 1s;
+}
+
+.btn-green:hover{
+	background-color: hotpink;
+  	color: springgreen;
+  	transition: 1s;
+}
+
+.btn-green{	
+padding: 16px;
+  color: springgreen;
+  font-weight: bold;
+  font-family: roboto;
+  border-radius: 6px;
+  display: block;
+  width: auto;
+  transition: 1s;
+  text-align: center;
+  margin: 16px auto;
+  border: 2px solid springgreen ;
+}

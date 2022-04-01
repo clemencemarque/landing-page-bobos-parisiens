@@ -1,0 +1,83 @@
+h1{color: darkgoldenrod;
+	font-family: montserrat;
+}
+h4{color: black;
+	font-family: roboto;
+}
+
+body{background-color:whitesmoke ;
+}
+
+.banner{
+	height: 30vh;
+	background-color: white;
+	background-size: cover;
+	background-position:  center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2{
+	color: hotpink;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	font-size: 40px;
+}
+
+html{
+	display : inline;
+   }
+ 
+ .list-inline li{
+	display: inline;
+	font-size: 15px;
+	margin: 0 25px;
+}
+
+.list-inline{
+	padding: 0;
+}
+
+.list-inline a{
+	font-size: 20px;
+	color:  darkgoldenrod;
+	font-family: montserrat;
+}
+.list-inline a:hover{
+	color: black;
+}
+
+.banner2{
+	height: 100vh;
+	background-color: white;
+	background-size: cover;
+	background-image: url('../images/badbunny.jpeg');
+	background-position:  center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h1, .banner h2{
+	text-shadow: 1px 1px 1px black;
+}
+
+@media	(min-width: 576px) {
+	.banner{
+		background-position: center;
+	}
+}
+
+
+.banner-fixed{
+			height:40vh;
+			background-image: url("../images/banner-fixed.jpg");
+			margin: 48px 0;
+			background-size: cover;
+			background-attachment: fixed;
+		}
